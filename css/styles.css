@@ -800,3 +800,40 @@ a {
         }
         
     } */
+
+
+/* Features Block */
+
+.feature {
+    gap: 4rem 2rem;
+    margin: 5rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 5rem;
+}
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
+.feature__image {
+    width: 100%;
+}
+
+
+ /* .block-feature__image img {
+     width: 100%;
+     padding: 4rem;
+}
+
+.block-feature__content {
+    padding: 4rem;
+    align-self: center;
+} */
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+}
