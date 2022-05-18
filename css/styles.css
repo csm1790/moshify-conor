@@ -791,7 +791,7 @@ a {
 
 .block-plans .card {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 3rem auto;
 }
 
 /* You did this - they just wanted it to apply to mobile too
@@ -929,6 +929,10 @@ a {
     .footer .collapsible__content {
         opacity: 1;
         max-height: 100%;
+    }
+
+    .footer .list {
+        font-size: 1.5rem;
     }
     
     .footer__brand {
